@@ -1161,9 +1161,6 @@ span.jp-relatedposts-post-title {
   padding: 8%;
   background-repeat: no-repeat;
   background-position: center center;
-  font-size: 13px;
-  font-weight: normal;
-  line-height: 18px;
   overflow: hidden;
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -1174,10 +1171,6 @@ span.jp-relatedposts-post-title {
 }
 
 .mjx-msnry-prtflio-wrppr #uber-grid-7517 > div .uber-grid-hover .uber-grid-hover-title strong {
-  font-family: "Marvel", 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.5rem !important;
   color: #333 !important;
 }
 
