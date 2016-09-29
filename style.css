@@ -167,7 +167,7 @@ span.mjx-em-txt {
 /*----------[MAJUX HOME BANNER STYLES]--------*/
 
 .mjx-hm-bnnr-sctn {
-    padding: 11% 0 !important;
+   padding: 14% 0 !important;
 }
 
 /*------------------------------------------------*/
@@ -1153,6 +1153,10 @@ span.jp-relatedposts-post-title {
 
 #Mjx-Instry-Icons #uber-grid-7501 > div .uber-grid-hover .uber-grid-hover-title strong {
   text-shadow: 1px 1px 2px rgba(5, 5, 5, 1) !important;
+}
+
+#Mjx-Instry-Icons .uber-grid-cell-title {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
 }
 
 .mjx-msnry-prtflio-wrppr .uber-grid > div .uber-grid-hover {
