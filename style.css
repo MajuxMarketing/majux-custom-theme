@@ -2450,6 +2450,12 @@ div#recent-posts-2 ul {
     padding-right: 3rem !important;
   }
 
+  /*-----[MAJUX CONTACT BAR RESPONSIVE STYLES]----*/
+
+  .mjxp-contact-us-bar-sctn {
+    display: none !important;
+  }
+
 }
 
 
@@ -2624,11 +2630,6 @@ div#recent-posts-2 ul {
     font-size: 13px !important;
   }
 
-  /*-----[MAJUX CONTACT BAR RESPONSIVE STYLES]----*/
-
-  .mjxp-contact-us-bar-sctn {
-    display: none !important;
-  }
 
   /*---[MAJUX FOOTER SOCIALS RESPONSIVE STYLES]---*/
 
