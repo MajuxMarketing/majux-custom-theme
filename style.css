@@ -2450,12 +2450,6 @@ div#recent-posts-2 ul {
     padding-right: 3rem !important;
   }
 
-  /*-----[MAJUX CONTACT BAR RESPONSIVE STYLES]----*/
-
-  .mjxp-contact-us-bar-sctn {
-    display: none !important;
-  }
-
 }
 
 
@@ -2498,9 +2492,12 @@ div#recent-posts-2 ul {
     padding: 6% 0 0 0 !important;
   }
   
-  
   #mjx-sbpg-bnnr-row {
     padding: 15% 0 0 0 !important;
+  }
+
+  #contact-us-bar {
+    padding: 2.6% 0 0.5% 0 !important;
   }
 
 }
@@ -2530,15 +2527,15 @@ div#recent-posts-2 ul {
     margin: 0 auto !important;
     width: 100% !important;
   }
-}
-
-@media only screen and ( max-width: 679px ) {
 
   /*---[MAJUX CONTACT BAR RESPONSIVE STYLES]---*/
 
-  #contact-us-bar {
-    padding: 2.6% 0 0.5% 0 !important;
+  /*-----[MAJUX CONTACT BAR RESPONSIVE STYLES]----*/
+
+  .mjxp-contact-us-bar-sctn {
+    display: none !important;
   }
+
   
   .pagination .alignleft {
     background: #FF8700!important;
