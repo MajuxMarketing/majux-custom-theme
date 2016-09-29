@@ -154,7 +154,11 @@ span.mjx-em-txt {
 /*-----------------[NAV STYLES]-------------------*/
 /*------------------------------------------------*/
 
-
+.sub-menu li a {
+  font-size: 0.8rem !important;
+  padding: 5px !important;
+  line-height: 1rem !important;
+}
 
 /*------------------------------------------------*/
 /*----------------[BANNER STYLES]-----------------*/
@@ -163,7 +167,7 @@ span.mjx-em-txt {
 /*----------[MAJUX HOME BANNER STYLES]--------*/
 
 .mjx-hm-bnnr-sctn {
-    padding: 14% 0 !important;
+    padding: 11% 0 !important;
 }
 
 /*------------------------------------------------*/
@@ -254,7 +258,7 @@ a.mjx-srvc-lnk :hover {
 
 .mjx-cntnt-col-3a {
   padding: 4rem !important;
-  background: #ccc !important;
+  background: #ddd !important;
 }
 
 .et_pb_counter_container {
@@ -809,6 +813,10 @@ h2.mjx-tstmnl-hdr {
   font-size: 18px;
 }
 
+.mjx-clnt-tstmnl {
+  padding-bottom: 20px !important;
+}
+
 /*------------------------------------------------*/
 /*---------[MAJUX SERVICES PAGE STYLES]-------*/
 /*------------------------------------------------*/
@@ -1137,16 +1145,15 @@ span.jp-relatedposts-post-title {
 /*----------[MAJUX PORTFOLIO PAGE STYLES]---------*/
 /*------------------------------------------------*/
 
-
-/*  
-.mjx-port-sctn {
-	padding-top: 1% 0 !important;
+#Mjx-Instry-Icons div.uber-grid-wrapper div.uber-grid > div.uber-grid-cell.uber-grid-visible {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1.05) !important;
 }
 
-.mjx-port-row {
-	padding-top: 1% 0 !important;
+#Mjx-Instry-Icons #uber-grid-7501 > div .uber-grid-hover .uber-grid-hover-title strong {
+  text-shadow: 1px 1px 2px rgba(5, 5, 5, 1) !important;
 }
-*/
 
 .mjx-msnry-prtflio-wrppr .uber-grid > div .uber-grid-hover {
   box-sizing: border-box;
@@ -2008,7 +2015,7 @@ div#recent-posts-2 ul {
     color: #fff !important;
     padding: 10px;
     position: absolute;
-    margin-top: -55%;
+    margin-top: -66% !important;
     left: -10px;
     width:  auto;
     -webkit-box-shadow: 0px 2px 4px #888;
