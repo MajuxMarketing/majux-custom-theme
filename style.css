@@ -2435,6 +2435,11 @@ div#recent-posts-2 ul {
 
 @media only screen and ( min-width: 768px ) and ( max-width: 980px ) {
 
+  .page-id-39 .uber-grid-cell-title-wrapper .uber-grid-cell-title strong {
+      text-align: center;
+      font-size: 12px !important;
+  }
+
 }
 
 @media screen and ( min-width: 782px ) {
@@ -2456,9 +2461,25 @@ div#recent-posts-2 ul {
   padding: 10% 0 0 0 !important;
  }
 
-  .mjx-srvcs-row, .et_pb_column .et_pb_row_inner {
-    padding-right: 3rem !important;
-  }
+.mjx-srvcs-row, .et_pb_column .et_pb_row_inner {
+  padding-right: 3rem !important;
+}
+
+.page-id-39 .uber-grid > div.uber-grid-hover .uber-grid-hover {
+  height: 75px !important;
+}
+
+.page-id-39 .uber-grid-cell-content {
+  height: 75px !important;
+}
+
+.page-id-39 .uber-grid-cell-wrapper {
+  height: 75px !important;
+}
+
+.page-id-39 .uber-grid-hover .uber-grid-hover-text {
+  font-size: 10px !important;
+}
 
 }
 
