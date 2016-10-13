@@ -160,6 +160,10 @@ span.mjx-em-txt {
   line-height: 1rem !important;
 }
 
+.et-fixed-header#top-header, .et-fixed-header#top-header #et-secondary-nav li ul {
+  background-color: #78868e !important;
+}
+
 /*------------------------------------------------*/
 /*----------------[BANNER STYLES]-----------------*/
 /*------------------------------------------------*/
