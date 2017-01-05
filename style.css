@@ -79,7 +79,6 @@ hr {
   border: solid #fff 1px !important;
 }
 
-
 span.mjx-em-txt {
   color: #CF6900;
   font-style: italic;
@@ -1208,6 +1207,10 @@ span.jp-relatedposts-post-title {
   padding: 1rem 0 !important;
 }
 
+.prjct-dtls-text ul {
+  font-size: 12px !important;
+  line-height: 23px !important;
+}
 
 /*------------------------------------------------*/
 /*------------[MAJUX CONTACT PAGE STYLES]---------*/
@@ -1262,6 +1265,11 @@ h2.mjx-pg-hdr {
 
 .footer-widget {
   margin-bottom: 30px!important;
+}
+
+#main-footer .footer-widget h4 {
+  color: #ea7600;
+  margin-bottom: 0 !important;
 }
 
 #footer-widgets {
@@ -1613,6 +1621,14 @@ span.responsive-pipe {
   /*------------------------------------------------*/
   /*--------------[CONTACT FORM STYLES]-------------*/
   /*------------------------------------------------*/
+
+  div.wpcf7-mail-sent-ok {
+    border: none !important;
+    background: #fff !important;
+    color: #ea7600 !important;
+    display: inline-block !important;
+    font-weight: bold !important;
+  }
 
   div#mjx-rcptcha {
     padding: 10px 0 !important;
