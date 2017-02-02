@@ -58,7 +58,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 		</div> <!-- #et-main-area -->
 
 <?php endif; // ! is_page_template( 'page-template-blank.php' ) ?>
-
+<script src="/wp-content/themes/majux-child-theme/js/scripts.js" type="text/javascript"></script>
 	</div> <!-- #page-container -->
 
 	<?php wp_footer(); ?>

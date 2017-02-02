@@ -49,6 +49,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 
 						<p id="footer-info"><?php echo Divichild_footer_credits_generator(); ?></p>
 -->
+<script src="/wp-content/themes/majux-child-theme/js/scripts.js" type="text/javascript"></script>
 
 					</div>	<!-- .container -->
 				</div>
