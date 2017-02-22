@@ -58,6 +58,9 @@ Divi Children Engine version: x.0.3
 /*-----------------[BASIC STYLES]-----------------*/
 /*------------------------------------------------*/
 
+body {
+ overflow: hidden; 
+}
 
 h1 {
   text-transform: uppercase !important;
@@ -170,7 +173,55 @@ span.mjx-em-txt {
 /*----------[MAJUX HOME BANNER STYLES]--------*/
 
 .mjx-hm-bnnr-sctn {
-  padding: 14% 0 !important;
+  padding: 0 !important;
+  height: 600px !important;
+}
+
+.mjx-hm-bnnr-sctn .et_pb_row.et_pb_row_fullwidth {
+  width: 107% !important;
+  max-width: 107% !important;
+  overflow: hidden !important;
+}
+
+.mjx-hm-bnnr-row {
+  padding: 0 !important;
+  margin: 0 auto !important;
+  height: 650px !important;
+  display: block;
+}
+
+.mjx-hm-bnnr-mdl {
+  width: 100% !important;
+  max-width: 100%;
+  height: 600px !important;
+}
+
+.mjx-bnnr-splt-icn-txt-mjx-info p {
+  color: #fff !important;
+  font-size: 0.7rem;
+  line-height: 1rem;
+  padding: 15px 5px 5px 5px;
+}
+
+.mjx-bnnr-col-1 {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  background: url(https://www.majux.com/wp-content/uploads/2017/02/mjx-bnnr-chrt-img-dsktp.png) no-repeat;
+  background-position: bottom;
+}
+
+
+.mjx-bnnr-txt-hdr-1-2017 {
+  color: #fff;
+  top: 35%;
+  left: 10%;
+  position: absolute;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.mjx-bnnr-txt-hdr-orng-spn {
+  color: #ea7600;
 }
 
 /*------------------------------------------------*/
@@ -397,7 +448,20 @@ a.mjx-srvc-lnk :hover {
   .mjx-trst-ico-span_1_of_6, .mjx-trst-ico-span_2_of_6, .mjx-trst-ico-span_3_of_6, .mjx-trst-ico-span_4_of_6, .mjx-trst-ico-span_5_of_6, .mjx-trst-ico-span_6_of_6 {
     width: 30%;
   }
+  
+  .mjx-bnnr-txt-hdr-1-2017 {
+    font-size: 2rem !important;
+    line-height: 2.3rem !important;
+    color: #fff;
+    top: 25%;
+    left: 10%;
+    position: absolute;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    font-size: 1.7rem !important;
+    line-height: 2.2rem !important;
+  }
 }
+
 
 @media only screen and (max-width: 480px) {
   .mjx-trst-ico-col {
@@ -1162,11 +1226,9 @@ span.jp-relatedposts-post-title {
 }
 
 #Mjx-Instry-Icons #uber-grid-7501 > div .uber-grid-hover .uber-grid-hover-title strong {
-  text-shadow: 1px 1px 2px rgba(5, 5, 5, 1) !important;
 }
 
 #Mjx-Instry-Icons .uber-grid-cell-title {
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
 }
 
 .mjx-msnry-prtflio-wrppr .uber-grid > div .uber-grid-hover {
@@ -1221,7 +1283,7 @@ span.jp-relatedposts-post-title {
 
 #mjx-sbpg-prjct-cntnthdr-row p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
+  font-size: .9rem;
   line-height: 1.6rem;
   width: 60% !important;
   margin: 0 auto !important;
@@ -1549,6 +1611,7 @@ h2.mjx-pg-hdr {
 
 #main-footer {
   background-color: #fff !important;
+  margin-bottom: 2rem !important;
 }
 
 .footer-widget {
@@ -2031,6 +2094,15 @@ div#recent-posts-2 ul {
 /*---------------[RESPONSIVE LAYOUTS]-------------*/
 /*------------------------------------------------*/
 
+@media only screen and ( min-width: 1125px ) and ( max-width: 1325px ) {
+ 
+   .mjx-bnnr-splt-icn-txt-mjx-info {
+    right: 8% !important;
+    bottom: 14% !important;
+  }
+}
+
+
 @media only screen and ( min-width: 1180px ) {
 
   /*------[MAJUX INFO BOX RESPONSIVE STYLES]-----*/
@@ -2109,11 +2181,6 @@ div#recent-posts-2 ul {
   }
 }
 
-@media only screen and ( min-width: 968px ) and ( max-width: 1280px ) {
-
-  /*------[MAJUX INFO BOX RESPONSIVE STYLES]-----*/
-}
-
 
 @media only screen and ( min-width: 1024px ) {
 
@@ -2126,9 +2193,41 @@ div#recent-posts-2 ul {
     font-weight: bold;
     line-height: 15px;
   }
+  
+  .mjx-bnnr-splt-icn-txt-mjx-info {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 20rem;
+    position: absolute;
+    right: 12%;
+    bottom: 16%;
+  }
+  
+  .mjx-bnnr-splt-icn-txt-mjx-info p {
+    color: #fff !important;
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    padding: 10px;
+  }
 
   h3.form-sctn-hdr {
-    font-size: 2vw;
+    font-size: 1.2rem !important;
     line-height: 22px;
     padding-bottom: 4% !important;
   }
@@ -2146,13 +2245,51 @@ div#recent-posts-2 ul {
     font-weight: bold;
     line-height: 15px;
   }
+  
+  .mjx-bnnr-splt-icn-txt-mjx-info {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 17rem;
+    position: absolute;
+		right: 12%;
+  	bottom: 13%;
+  }
 }
 
 
 @media only screen and ( min-width: 981px ) {
 	
+  .mjx-bnnr-txt-hdr-1-2017 {
+    font-size: 3rem !important;
+    line-height: 3.3rem !important;
+  }
+  
   .mjx-sbpg-prjct-statsgraph-img img {
     width: 70% !important;
+  }
+  
+  .mjx-sbpg-prjct-splt-img-mdl img {
+    width: 50% !important;
+  }
+  
+  .mjx-sbpg-prjct-splt-img-mdl img {
+    width: 50% !important;
   }
   
   .page.page-id-486 .mjx-srv-top-cntnt-sctn {
@@ -2322,7 +2459,7 @@ div#recent-posts-2 ul {
   }
 
   h3.form-sctn-hdr {
-    font-size: 1.75em;
+    font-size: 1.2rem;
     line-height: 1.2em;
   }
 
@@ -2418,7 +2555,6 @@ div#recent-posts-2 ul {
     text-align: center !important;
   }
 
-
   .mjx-blg-row {
     width: 60% !important;
   }
@@ -2447,6 +2583,7 @@ div#recent-posts-2 ul {
 /*-------------------[960px]------------------*/
 
 @media only screen and ( min-width: 981px ) and ( max-width: 1100px ) {
+  
   .mjx-stff-mbr-blrb-row {
     padding: 2% 2% 2% 2% !important;
     margin-bottom: 2% !important;
@@ -2476,8 +2613,7 @@ div#recent-posts-2 ul {
 
 @media only screen and ( max-width: 980px ) {
 
-
-
+  
   /*--------[MAJUX HOME CONTENT BOX STYLES 1]-------*/
 
   .mjx-cntnt-sctn-1 {
@@ -2582,7 +2718,11 @@ div#recent-posts-2 ul {
 
 
   /*---[MAJUX FOOTER WIDGETS RESPONSIVE STYLES]---*/
-
+	
+  footer#main-footer {
+    margin-bottom: 1rem !important;
+  }
+  
   #footer-widgets .footer-widget, .et_pb_gutters1 #footer-widgets .footer-widget {
     width: 50% !important;
     margin-right: 0px !important;
@@ -2768,6 +2908,25 @@ div#recent-posts-2 ul {
     font-size: 12px !important;
   }
   
+  .mjx-bnnr-col-1 {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    background: url(https://www.majux.com/wp-content/uploads/2017/02/mjx-bnnr-chrt-img-tblt.png)  no-repeat center center; 
+  }
+  
+  .mjx-bnnr-txt-hdr-1-2017 {
+    font-size: 2rem !important;
+    line-height: 2.3rem !important;
+    color: #fff;
+    top: 25%;
+    left: 10%;
+    position: absolute;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    font-size: 2.4rem !important;
+    line-height: 2.6rem !important;
+  }
+  
   /*------[MAJUX SERVICE LIST RESPONSIVE STYLES]-----*/
 
 	.mjx-prct-dtls-2col-ul-sctn .mjx-prct-dtls-pjpg-ul {
@@ -2796,7 +2955,14 @@ div#recent-posts-2 ul {
 }
 
 @media screen and ( max-width: 782px ) {
-
+  
+  .mjx-bnnr-col-1 {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    background: url(https://www.majux.com/wp-content/uploads/2017/02/mjx-bnnr-chrt-img-mbl.png)  no-repeat center center; 
+  }
+  
 /*----[MAJUX SERVICES ICON RESPONSIVE STYLES]----*/
 
   
@@ -2870,7 +3036,12 @@ div#recent-posts-2 ul {
 
 
 @media only screen and ( max-width: 767px ) {
-
+	
+    .mjx-bnnr-splt-icn-txt-mjx-info {
+      right: 21%;
+      bottom: 5%;
+    }
+  
   /*----[MAJUX SERVICES ICON RESPONSIVE STYLES]----*/
 
   .mjx-icns-col {
@@ -2924,6 +3095,18 @@ div#recent-posts-2 ul {
 
 @media only screen and ( max-width: 679px ) {
 
+  .mjx-bnnr-txt-hdr-1-2017 {
+    font-size: 2rem !important;
+    line-height: 2.3rem !important;
+    color: #fff;
+    top: 20%;
+    left: 6%;
+    position: absolute;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    font-size: 1.85rem !important;
+    line-height: 2.2rem !important;
+  }
+  
   /*---[MAJUX FOOTER WIDGETS RESPONSIVE STYLES]---*/
 
   #footer-widgets .footer-widget, .et_pb_gutters1 #footer-widgets .footer-widget {
@@ -3018,6 +3201,13 @@ div#recent-posts-2 ul {
   #footer-bottom {
     display: none;
   }
+}
+
+@media only screen and ( min-width: 320px ) and ( max-width: 375px ) {
+    .mjx-bnnr-splt-icn-txt-mjx-info {
+      right: 15%;
+      bottom: 5%;
+    }
 }
 
 /*-------------------[479px]------------------*/

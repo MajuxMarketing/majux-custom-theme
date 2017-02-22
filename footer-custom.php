@@ -48,7 +48,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
         ?>
 
         <p id="footer-info">
-          Copyright © 2016 <a rel="dofo" alt="Majux" title="Online Marketing for Law Firms" href="http://www.majux.com/">Majux</a> <span class="responsive-pipe">|</span> 2029 Walnut St, Philadelphia, PA 19103
+          Copyright © 2017 <a rel="dofo" alt="Majux" title="Online Marketing for Law Firms" href="http://www.majux.com/">Majux</a> <span class="responsive-pipe">|</span> 211 N 13th St., # 601, Philadelphia, PA 19107
           <span class="responsive-pipe">|</span> <a href="http://www.majux.com/privacy-policy/" alt="Privacy Policy" title="Majux Privacy Policy">Privacy Policy</a> <span class="responsive-pipe">|</span> <a href="http://www.majux.com/sitemap_index.xml" alt="Site Map" title="Majux Site Map">Site Map</a>
         </p>
 
